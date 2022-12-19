@@ -1,0 +1,456 @@
+* {
+    box-sizing: border-box;
+  }
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+#homesec1{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%; 
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ), url("../images/netflix.jpeg");
+
+}
+
+#div1{
+    background-color: black; /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.744);
+    color: white;
+    font-weight: bold;
+    border: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 30%;
+    padding: 30px 20px;
+    height: 42rem;
+    
+}
+#signup{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin: 50px;
+}
+label {
+    display: block;
+}
+#netflix {
+    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+    padding: 10px;
+    text-decoration: none;
+    text-decoration: none;
+    font-weight: 600;
+}
+#netflixs {
+    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+#password{
+  width: 79%;
+  padding: 20px;
+  background-color: #333;
+  border: none;
+  margin: 15px 50px;
+  border-radius: 4px;
+  
+}
+::placeholder{
+    color: rgba(255, 255, 255, 0.956);
+}
+#learn{
+    color: rgba(255, 255, 255, 0.488);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin: 50px;
+   
+}
+#email{
+    width: 79%;
+    padding: 20px;
+    background-color: #333;
+    border: none;
+    margin: 15px 50px;
+    border-radius: 4px;
+}
+#submits{
+    width: 79%;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    margin-left: 45px;
+    color: white;
+}
+
+.bigbox{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+}
+.bigbox a{
+    font-size: small;
+    text-decoration: none;
+}
+.div2 a{
+    text-decoration: none;
+    color: blue;
+}
+
+.box{
+    display: flex;
+}
+
+input[type=checkbox] {
+    accent-color: #333;
+  }
+
+  #remember{
+    color: rgba(255, 255, 255, 0.747);
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+  }
+  #new{
+    margin: 50px;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 100;
+  }
+  #new a{
+    padding-left: 1rem;
+    color: white;
+    text-decoration: none;
+  }
+  #div1home{
+    color: white;
+    font-weight: bold;
+    border: none;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+   
+    
+}
+#getstarted {
+    display: inline-flex;
+}
+#getstarted a{
+    text-decoration: none;
+}
+#signup{
+    position: relative;
+    top: -20px;
+    left:60rem;
+    padding: 10px 20px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+}
+#getstarted{
+    position: relative;
+    bottom: 76px;
+    left: 25rem;
+    padding: 20px 60px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    cursor: pointer;
+}
+#getstarted:hover{
+    background-color: rgb(194, 5, 5);
+    
+}
+
+#emails{
+    width: 70%;
+    padding: 20px;
+    background-color: white;
+    border: none;
+    margin: 20px;
+    border-radius: 4px;
+}
+#div1home h1{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 4rem;
+font-weight: 700;
+text-align: center;
+}
+#div1home P{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 2rem;
+font-weight: 100;
+text-align: center;
+}
+#div1home small{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+font-weight: 100;
+text-align: center;
+
+}
+#background{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; 
+    background: linear-gradient(-120DEG,#000000,#000000,#000000,#1f0101,#330101,#2e0103,#3c0103,#220101,#180303,#000000,#000000,#000000);
+}
+
+#main{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: none;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 100%;
+    padding: 30px 20px;
+    height: 35rem;
+    
+}
+#navs {
+    display: flex;
+    justify-content: space-around;
+}
+#nav1 {
+    display: flex;
+    color: white;
+}
+
+#nav1 a{
+    padding-top: 24px;
+    text-decoration: none;
+    color: white;
+}
+#input1{
+    position: relative;
+    top: 20px;
+    left: -190px;
+    padding: 10px 20px;
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+    cursor: pointer;
+    text-decoration: none;
+   
+}
+#input1:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+   
+}
+#input2{
+    position: relative;
+    top: 20px;
+    left: -190px;
+    padding: 10px 20px;
+    margin-left: 10px;
+    color: white;
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#email3{
+    width: 50%;
+    padding: 20px;
+    border: 1px solid grey;
+    margin: 15px 50px;
+    border-radius: 4px;
+}
+#name{
+    width: 50%;
+    padding: 20px;
+    border: 1px solid grey;
+    margin: 0px 50px;
+    border-radius: 4px;
+}
+#textarea{
+    width: 50%;
+    padding: 20px;
+    margin: 0px 50px;
+    border-radius: 4px;
+}
+#submit3{
+    width: 50%;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    margin-left: 45px;
+    color: white;
+}
+#cform{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+#textarea::placeholder{
+    color: black;
+}
+#name::placeholder{
+    color: black;
+}
+#email3::placeholder{
+    color: black;
+}
+#ghana {
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600; margin: 10px;
+}
+#languages {
+    padding: 10px 20px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 10px;
+}
+.ll{
+    display: flex;
+    position: relative;
+    top: -63px;
+    left: 68rem;
+}
+#stories {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;margin: 200px;
+    font-weight: 600;
+    color: white;
+}
+#story {
+    color: white;
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    margin: 0 25rem;
+    padding: 20px 20px 0px 20px;
+}
+#storyhead {
+    color: red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+#subscribe{
+    position: relative;
+    bottom: 0px;
+    left: -26rem;
+    padding: 20px 50px;
+    background-color: red;
+    border: 1px solid red;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    cursor: pointer;
+   
+}
+#subscribe:hover{
+    background-color: rgb(194, 5, 5);
+    
+}
+
+#email4::placeholder{
+color: #000;
+}
+#email4{
+    width: 30%;
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    text-align: center;
+    margin: 0 25rem;
+    border: none;
+}
+#tel{
+        width: 70%;
+        padding: 20px;
+        background-color: black;
+        border: 1px solid rgba(255, 255, 255, 0.802);
+        margin: 20px 0px;
+        border-radius: 4px;
+        color: white;
+}
+#div1service{
+    color: white;
+    font-weight: bold;
+    border: none;
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+#tell::placeholder{
+    color: #000;
+}
+#need{
+    color: rgba(255, 255, 255, 0.875);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+#redeem{
+width: 40%;
+padding: 20px;
+margin-top: 30px;
+background-color: red;
+border: none;
+border-radius: 4px;
+color: white;
+}
+#learners{
+    color: rgba(255, 255, 255, 0.52);
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
